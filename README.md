@@ -13,3 +13,5 @@
  
  ImageLoadProxy.getInstance().load(
  new ImageLoadConfiguration.Builder(this).url(urlThree).imageHeight(1400).imageWidth(1600).imageView(imageViewThree).build());
+ 
+ 三个请求分别代表三张图片的显示效果
