@@ -3,9 +3,9 @@ package com.fe.imageload.activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
-import com.fe.imageload.ImageLoadConfiguration;
-import com.fe.imageload.ImageLoadProxy;
 import com.fe.imageload.R;
+import com.free.imageload.library.ImageLoadConfiguration;
+import com.free.imageload.library.ImageLoadProxy;
 
 public class MainActivity extends AppCompatActivity {
 

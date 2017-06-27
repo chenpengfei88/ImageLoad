@@ -1,13 +1,11 @@
-package com.fe.imageload.manager;
+package com.free.imageload.library.manager;
+
 
 import com.bumptech.glide.DrawableTypeRequest;
 import com.bumptech.glide.Glide;
-import com.fe.imageload.ImageLoadConfiguration;
-
-import jp.wasabeef.glide.transformations.BlurTransformation;
+import com.free.imageload.library.ImageLoadConfiguration;
 import jp.wasabeef.glide.transformations.CropCircleTransformation;
 import jp.wasabeef.glide.transformations.GrayscaleTransformation;
-import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 
 /**
  * Created by chenpengfei on 2017/1/23.

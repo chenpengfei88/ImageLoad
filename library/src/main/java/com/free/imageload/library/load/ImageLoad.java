@@ -1,6 +1,7 @@
-package com.fe.imageload.load;
+package com.free.imageload.library.load;
 
-import com.fe.imageload.ImageLoadConfiguration;
+
+import com.free.imageload.library.ImageLoadConfiguration;
 
 /**
  * Created by chenpengfei on 2017/1/23.

@@ -1,4 +1,4 @@
-package com.fe.imageload;
+package com.free.imageload.library;
 
 import android.content.Context;
 import android.widget.ImageView;
@@ -16,6 +16,8 @@ public class ImageLoadConfiguration {
     public final boolean isGray;
     public final int imageWidth;
     public final int imageHeight;
+    public final int imageMaxWidth;
+    public final int imageMaxHeight;
 
     public ImageLoadConfiguration(Builder builder) {
         context = builder.context;
@@ -26,6 +28,8 @@ public class ImageLoadConfiguration {
         isGray = builder.isGray;
         imageWidth = builder.imageWidth;
         imageHeight = builder.imageHeight;
+        imageMaxWidth = builder.imageMaxWidth;
+        imageMaxHeight = builder.imageMaxHeight;
     }
 
     public static final class Builder {
@@ -38,6 +42,8 @@ public class ImageLoadConfiguration {
         private boolean isGray;
         private int imageWidth;
         private int imageHeight;
+        private int imageMaxWidth;
+        private int imageMaxHeight;
 
         public Builder(Context context) {
             this.context = context;
@@ -70,6 +76,16 @@ public class ImageLoadConfiguration {
 
         public Builder imageHeight(int imageHeight) {
             this.imageHeight = imageHeight;
+            return this;
+        }
+
+        public Builder imageMaxWidth(int imageMaxWidth) {
+            this.imageMaxWidth = imageMaxWidth;
+            return this;
+        }
+
+        public Builder imageMaxHeight(int imageMaxHeight) {
+            this.imageMaxHeight = imageMaxHeight;
             return this;
         }
 

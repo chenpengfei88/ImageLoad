@@ -1,7 +1,8 @@
-package com.fe.imageload.load;
+package com.free.imageload.library.load;
 
-import com.fe.imageload.ImageLoadConfiguration;
-import com.fe.imageload.manager.GlideManager;
+
+import com.free.imageload.library.ImageLoadConfiguration;
+import com.free.imageload.library.manager.GlideManager;
 
 /**
  * Created by chenpengfei on 2017/1/23.
